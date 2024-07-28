@@ -1,0 +1,22 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#colorButton {
+    padding: 10px 20px; 
+    height:100%;
+    border-radius:5px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition:all 0.2s linear;
+}
+#colorButton.clicked {
+    transition:all 0.2s linear;
+    background-color: red;
+    box-shadow: 0px 0px 10px rgb(211, 44, 44);;
+}
